@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Patrick Mahomes",
+    "pos": "QB",
+    "team": "Kansas City Chiefs",
+    "college": "Texas Tech",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "Buffalo Bills",
+    "college": "Wyoming",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "team": "Baltimore Ravens",
+    "college": "Louisville",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Joe Burrow",
+    "pos": "QB",
+    "team": "Cincinnati Bengals",
+    "college": "LSU",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "team": "Philadelphia Eagles",
+    "college": "Oklahoma",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "team": "Minnesota Vikings",
+    "college": "LSU",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Ja’Marr Chase",
+    "pos": "WR",
+    "team": "Cincinnati Bengals",
+    "college": "LSU",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "team": "Dallas Cowboys",
+    "college": "Oklahoma",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Tyreek Hill",
+    "pos": "WR",
+    "team": "Miami Dolphins",
+    "college": "West Alabama",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Davante Adams",
+    "pos": "WR",
+    "team": "Los Angeles Rams",
+    "college": "Fresno State",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Travis Kelce",
+    "pos": "TE",
+    "team": "Kansas City Chiefs",
+    "college": "Cincinnati",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "George Kittle",
+    "pos": "TE",
+    "team": "San Francisco 49ers",
+    "college": "Iowa",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "team": "Philadelphia Eagles",
+    "college": "Penn State",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "team": "Baltimore Ravens",
+    "college": "Alabama",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "team": "San Francisco 49ers",
+    "college": "Stanford",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Myles Garrett",
+    "pos": "DE",
+    "team": "Cleveland Browns",
+    "college": "Texas A&M",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "T.J. Watt",
+    "pos": "OLB",
+    "team": "Pittsburgh Steelers",
+    "college": "Wisconsin",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Micah Parsons",
+    "pos": "DE",
+    "team": "Green Bay Packers",
+    "college": "Penn State",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Maxx Crosby",
+    "pos": "DE",
+    "team": "Las Vegas Raiders",
+    "college": "Eastern Michigan",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Cooper Kupp",
+    "pos": "WR",
+    "team": "Seattle Seahawks",
+    "college": "Eastern Washington",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "team": "Los Angeles Rams",
+    "college": "BYU",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Brock Purdy",
+    "pos": "QB",
+    "team": "San Francisco 49ers",
+    "college": "Iowa State",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "team": "Houston Texans",
+    "college": "Ohio State",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "team": "Washington Commanders",
+    "college": "LSU",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "team": "Chicago Bears",
+    "college": "USC",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Sauce Gardner",
+    "pos": "CB",
+    "team": "New York Jets",
+    "college": "Cincinnati",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Patrick Surtain II",
+    "pos": "CB",
+    "team": "Denver Broncos",
+    "college": "Alabama",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Fred Warner",
+    "pos": "LB",
+    "team": "San Francisco 49ers",
+    "college": "BYU",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Nick Bosa",
+    "pos": "DE",
+    "team": "San Francisco 49ers",
+    "college": "Ohio State",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "team": "Las Vegas Raiders",
+    "college": "Georgia",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Amon-Ra St. Brown",
+    "pos": "WR",
+    "team": "Detroit Lions",
+    "college": "USC",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "team": "Detroit Lions",
+    "college": "Alabama",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Bijan Robinson",
+    "pos": "RB",
+    "team": "Atlanta Falcons",
+    "college": "Texas",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Trevor Lawrence",
+    "pos": "QB",
+    "team": "Jacksonville Jaguars",
+    "college": "Clemson",
+    "d": 1,
+    "photo": null
+  },
+  {
+    "name": "Kyle Hamilton",
+    "pos": "S",
+    "team": "Baltimore Ravens",
+    "college": "Notre Dame",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "team": "New York Jets",
+    "college": "Ohio State",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Jordan Love",
+    "pos": "QB",
+    "team": "Green Bay Packers",
+    "college": "Utah State",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "team": "Indianapolis Colts",
+    "college": "Wisconsin",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Aidan Hutchinson",
+    "pos": "DE",
+    "team": "Detroit Lions",
+    "college": "Michigan",
+    "d": 2,
+    "photo": null
+  },
+  {
+    "name": "Penei Sewell",
+    "pos": "OT",
+    "team": "Detroit Lions",
+    "college": "Oregon",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Quinnen Williams",
+    "pos": "DT",
+    "team": "New York Jets",
+    "college": "Alabama",
+    "d": 3,
+    "photo": null
+  },
+  {
+    "name": "Trey Hendrickson",
+    "pos": "DE",
+    "team": "Cincinnati Bengals",
+    "college": "Florida Atlantic",
+    "d": 3,
+    "photo": null
+  }
+]

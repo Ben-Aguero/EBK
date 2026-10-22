@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ball Knowledge</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fff;--ink:#14171c;--mute:#6b7280;--line:#e1ddd2;--accent:#1d4ed8;--accent-ink:#fff;--good:#15803d;--goodbg:#dcfce7;--bad:#b91c1c;--badbg:#fee2e2;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1116;--card:#181d25;--ink:#f1f3f6;--mute:#98a1b0;--line:#2a313c;--accent:#4f8cff;--accent-ink:#0b1020;--good:#4ade80;--goodbg:#12301f;--bad:#f87171;--badbg:#3a1618;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1116;--card:#181d25;--ink:#f1f3f6;--mute:#98a1b0;--line:#2a313c;--accent:#4f8cff;--accent-ink:#0b1020;--good:#4ade80;--goodbg:#12301f;--bad:#f87171;--badbg:#3a1618;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.4}
+.wrap{max-width:480px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:2.2rem;letter-spacing:-.03em;margin:8px 0 4px;font-weight:900;text-transform:uppercase}
+.sub{color:var(--mute);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.btn{display:block;width:100%;font:inherit;font-weight:700;font-size:1rem;padding:15px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;text-align:left;margin-top:10px}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);text-align:center}
+.btn:disabled{cursor:default}
+.btn.off{opacity:.5}
+.tag{font-size:.7rem;font-weight:700;background:var(--line);color:var(--mute);padding:2px 8px;border-radius:99px;margin-left:8px;text-transform:uppercase}
+.rules{margin:18px 0 0;padding:0;list-style:none;color:var(--mute);font-size:.92rem}
+.rules li{margin:6px 0}
+.hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.pips{display:flex;gap:6px}
+.pip{width:28px;height:8px;border-radius:4px;background:var(--line)}
+.pip.done{background:var(--good)}.pip.now{background:var(--accent)}.pip.lost{background:var(--bad)}
+.strikes{display:flex;gap:6px}
+.x{width:30px;height:30px;border-radius:8px;border:2px solid var(--line);display:grid;place-items:center;font-weight:900;color:transparent}
+.x.on{border-color:var(--bad);background:var(--badbg);color:var(--bad)}
+.rd{font-size:.8rem;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.player{text-align:center;padding:26px 16px}
+.avatar{width:112px;height:112px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;background:var(--line);color:var(--mute);font-size:2.2rem;font-weight:900;overflow:hidden;border:3px solid var(--accent)}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.pos{display:inline-block;font-weight:800;font-size:.8rem;background:var(--accent);color:var(--accent-ink);padding:3px 10px;border-radius:99px}
+.name{font-size:2rem;font-weight:900;letter-spacing:-.02em;margin:12px 0 4px;line-height:1.1}
+.team{color:var(--mute)}
+.q{text-align:center;font-weight:700;margin:18px 0 4px}
+.opt.right{background:var(--goodbg);border-color:var(--good);color:var(--good)}
+.opt.wrong{background:var(--badbg);border-color:var(--bad);color:var(--bad)}
+input.guess{display:block;width:100%;font:inherit;font-size:1.1rem;font-weight:600;padding:15px 16px;margin-top:10px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);outline:none}
+input.guess:focus{border-color:var(--accent)}
+input.guess.right{border-color:var(--good);background:var(--goodbg)}
+input.guess.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{margin-top:14px;font-weight:700;text-align:center;min-height:1.4em}
+.big{font-size:4rem;font-weight:900;text-align:center;margin:6px 0;letter-spacing:-.04em}
+.center{text-align:center}
+.soon{margin-top:22px;padding:14px;border:1px dashed var(--line);border-radius:12px;color:var(--mute);font-size:.88rem}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section id="home">
+  <h1>Ball Knowledge</h1>
+  <p class="sub">Think you know ball? Name where they played college.</p>
+  <div class="card">
+    <button class="btn primary" id="playCurrent">Play: Current NFL Players</button>
+    <button class="btn off" disabled>All-Time Legends <span class="tag">Coming soon</span></button>
+    <ul class="rules">
+      <li>5 rounds, 1 player each. Rounds get harder.</li>
+      <li>3 strikes and you’re out.</li>
+      <li>Type the college they played at last. Common nicknames and small typos are OK.</li>
+    </ul>
+    <p class="rules" id="best"></p>
+  </div>
+  <div class="soon">Next up: play head-to-head against your friends in the app.</div>
+</section>
+
+<section id="game" class="hidden">
+  <div class="hud">
+    <div class="pips" id="pips"></div>
+    <div class="strikes" id="strikes"></div>
+  </div>
+  <div class="card player">
+    <div class="rd" id="rd"></div>
+    <div class="avatar" id="avatar"></div>
+    <div style="margin-top:12px"><span class="pos" id="pos"></span></div>
+    <div class="name" id="name"></div>
+    <div class="team" id="team"></div>
+  </div>
+  <div class="q">Where did he play college ball?</div>
+  <input class="guess" id="guess" type="text" placeholder="Type the college…" autocomplete="off" autocapitalize="words" spellcheck="false">
+  <button class="btn primary" id="submit">Lock it in</button>
+  <div class="fb" id="fb"></div>
+  <button class="btn primary hidden" id="next">Next</button>
+</section>
+
+<section id="end" class="hidden">
+  <div class="card center">
+    <div class="rd" id="endTitle"></div>
+    <div class="big" id="score"></div>
+    <p id="endMsg" class="sub"></p>
+    <button class="btn primary" id="again">Play again</button>
+    <button class="btn" id="menu" style="text-align:center">Home</button>
+  </div>
+</section>
+
+</div>
+<script>
+// d = difficulty 1 (easy) to 3 (hard). Rosters change, so team labels may need updating.
+let P=[];
+fetch("players.json").then(r=>r.json()).then(d=>{P=d.map(o=>[o.name,o.pos,o.team,o.college,o.d,o.photo||null])}).catch(()=>{$("best").textContent="Could not load players.json. Run this from a web server, not by double-clicking the file."});
+const C=["Alabama","Georgia","Ohio State","Michigan","LSU","Clemson","Texas","Oklahoma","USC","Notre Dame","Penn State","Florida","Oregon","Wisconsin","Iowa","Stanford","Miami (FL)","Florida State","Auburn","Tennessee","Texas A&M","Utah","Washington","Nebraska","UCLA","Boise State","North Dakota State","Baylor","Ole Miss","Virginia Tech"];
+const $=id=>document.getElementById(id);
+let rounds,i,strikes,score,locked;
+const show=s=>["home","game","end"].forEach(x=>$(x).classList.toggle("hidden",x!==s));
+const shuffle=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+function pickRounds(){
+  const diffs=[1,1,2,2,3],used=new Set(),out=[];
+  diffs.forEach(d=>{
+    let pool=P.filter(p=>p[4]===d&&!used.has(p[0]));
+    if(!pool.length)pool=P.filter(p=>!used.has(p[0]));
+    const p=shuffle(pool)[0];used.add(p[0]);out.push(p);
+  });
+  return out;
+}
+function start(){
+  rounds=pickRounds();i=0;strikes=0;score=0;draw();show("game");load();
+}
+function draw(){
+  $("pips").innerHTML=rounds.map((_,k)=>`<div class="pip ${k<i?(rounds[k].ok?"done":"lost"):k===i?"now":""}"></div>`).join("");
+  $("strikes").innerHTML=[0,1,2].map(k=>`<div class="x ${k<strikes?"on":""}">✕</div>`).join("");
+}
+function load(){
+  locked=false;const p=rounds[i];
+  $("rd").textContent=`Round ${i+1} of 5`;
+  const w=p[0].split(" ").filter(x=>!/^(jr\.?|ii|iii)$/i.test(x));
+  const av=$("avatar");av.textContent=(w[0][0]+w[w.length-1][0]).toUpperCase();
+  if(p[5]){const im=new Image();im.alt=p[0];im.onload=()=>{av.textContent="";av.appendChild(im)};im.src=p[5]}
+  $("pos").textContent=p[1];$("name").textContent=p[0];$("team").textContent=p[2];
+  $("fb").textContent="";$("fb").style.color="";$("next").classList.add("hidden");
+  const g=$("guess");g.value="";g.disabled=false;g.className="guess";
+  $("submit").classList.remove("hidden");
+  draw();g.focus();
+}
+const ALIAS={"Texas Tech":["tech","ttu"],"LSU":["louisiana state"],"Oklahoma":["ou"],"Fresno State":["fresno"],"Cincinnati":["uc","cincy"],"Penn State":["psu"],"Alabama":["bama","roll tide"],"Texas A&M":["texas am","tamu","a&m","am"],"Eastern Michigan":["emu"],"Eastern Washington":["ewu"],"BYU":["brigham young"],"Ohio State":["osu","tosu"],"USC":["southern cal","southern california"],"Georgia":["uga"],"Texas":["ut","ut austin"],"Florida Atlantic":["fau"],"Iowa State":["isu"],"Utah State":["usu"]};
+const norm=s=>s.toLowerCase().replace(/&/g," and ").replace(/\buniversity of\b|\bthe\b|\buniversity\b/g,"").replace(/[^a-z0-9]/g,"");
+function lev(a,b){const d=[...Array(a.length+1)].map((_,r)=>[r]);for(let c=1;c<=b.length;c++)d[0][c]=c;for(let r=1;r<=a.length;r++)for(let c=1;c<=b.length;c++)d[r][c]=Math.min(d[r-1][c]+1,d[r][c-1]+1,d[r-1][c-1]+(a[r-1]===b[c-1]?0:1));return d[a.length][b.length]}
+function matches(guess,answer){
+  const g=norm(guess);if(!g)return false;
+  const names=[answer,...(ALIAS[answer]||[])].map(norm);
+  if(names.some(n=>n===g||(n.length>=6&&lev(n,g)<=(n.length>=10?2:1))))return true;
+  if(answer==="Texas A&M")return g==="texasandm"||g==="texasam"||g==="texasandam";
+  return false;
+}
+function answer(){
+  if(locked)return;
+  const c=$("guess").value.trim();if(!c)return;
+  locked=true;const p=rounds[i];
+  const ok=matches(c,p[3]);p.ok=ok;
+  $("guess").disabled=true;$("guess").classList.add(ok?"right":"wrong");$("submit").classList.add("hidden");
+  if(ok){score++;$("fb").textContent="Ball knowledge confirmed.";$("fb").style.color="var(--good)"}
+  else{strikes++;$("fb").textContent=`Strike ${strikes}. He played at ${p[3]}.`;$("fb").style.color="var(--bad)"}
+  i++;draw();
+  const over=strikes>=3||i>=5;
+  $("next").textContent=over?"See results":"Next player";
+  $("next").classList.remove("hidden");
+  $("next").onclick=()=>over?finish():load();
+}
+function finish(){
+  const won=strikes<3;
+  $("endTitle").textContent=won?"You survived":"Three strikes";
+  $("score").textContent=`${score}/5`;
+  $("endMsg").textContent=won?(score===5?"Perfect run. Certified ball knowledge.":"Solid. Run it back for a perfect 5."):"You’re out. Time to watch more college football.";
+  try{const b=+localStorage.getItem("bk-best")||0;if(score>b)localStorage.setItem("bk-best",score)}catch(e){}
+  showBest();show("end");
+}
+function showBest(){
+  let b=null;try{b=localStorage.getItem("bk-best")}catch(e){}
+  $("best").textContent=b!==null?`Your best: ${b}/5`:"";
+}
+$("submit").onclick=answer;
+$("guess").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();answer()}});
+document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target!==$("guess")&&e.target!==$("next")&&locked&&!$("game").classList.contains("hidden"))$("next").click()});
+$("playCurrent").onclick=start;$("again").onclick=start;
+$("menu").onclick=()=>{showBest();show("home")};
+showBest();
+</script>
+</body>
+</html>
