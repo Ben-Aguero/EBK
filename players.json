@@ -5,7 +5,7 @@
     "team": "Kansas City Chiefs",
     "college": "Texas Tech",
     "d": 1,
-    "photo": null
+    "photo": "images/patrick-mahomes.png"
   },
   {
     "name": "Josh Allen",
@@ -13,7 +13,7 @@
     "team": "Buffalo Bills",
     "college": "Wyoming",
     "d": 1,
-    "photo": null
+    "photo": "images/josh-allen.png"
   },
   {
     "name": "Lamar Jackson",
@@ -21,7 +21,7 @@
     "team": "Baltimore Ravens",
     "college": "Louisville",
     "d": 1,
-    "photo": null
+    "photo": "images/lamar-jackson.png"
   },
   {
     "name": "Joe Burrow",
@@ -29,7 +29,7 @@
     "team": "Cincinnati Bengals",
     "college": "LSU",
     "d": 1,
-    "photo": null
+    "photo": "images/joe-burrow.png"
   },
   {
     "name": "Jalen Hurts",
@@ -37,7 +37,7 @@
     "team": "Philadelphia Eagles",
     "college": "Oklahoma",
     "d": 2,
-    "photo": null
+    "photo": "images/jalen-hurts.png"
   },
   {
     "name": "Justin Jefferson",
@@ -45,7 +45,7 @@
     "team": "Minnesota Vikings",
     "college": "LSU",
     "d": 1,
-    "photo": null
+    "photo": "images/justin-jefferson.png"
   },
   {
     "name": "Ja’Marr Chase",
@@ -53,7 +53,7 @@
     "team": "Cincinnati Bengals",
     "college": "LSU",
     "d": 1,
-    "photo": null
+    "photo": "images/ja-marr-chase.png"
   },
   {
     "name": "CeeDee Lamb",
@@ -61,7 +61,7 @@
     "team": "Dallas Cowboys",
     "college": "Oklahoma",
     "d": 2,
-    "photo": null
+    "photo": "images/ceedee-lamb.png"
   },
   {
     "name": "Tyreek Hill",
@@ -77,7 +77,7 @@
     "team": "Los Angeles Rams",
     "college": "Fresno State",
     "d": 3,
-    "photo": null
+    "photo": "images/davante-adams.png"
   },
   {
     "name": "Travis Kelce",
@@ -85,7 +85,7 @@
     "team": "Kansas City Chiefs",
     "college": "Cincinnati",
     "d": 2,
-    "photo": null
+    "photo": "images/travis-kelce.png"
   },
   {
     "name": "George Kittle",
@@ -93,7 +93,7 @@
     "team": "San Francisco 49ers",
     "college": "Iowa",
     "d": 2,
-    "photo": null
+    "photo": "images/george-kittle.png"
   },
   {
     "name": "Saquon Barkley",
@@ -101,7 +101,7 @@
     "team": "Philadelphia Eagles",
     "college": "Penn State",
     "d": 1,
-    "photo": null
+    "photo": "images/saquon-barkley.png"
   },
   {
     "name": "Derrick Henry",
@@ -109,7 +109,7 @@
     "team": "Baltimore Ravens",
     "college": "Alabama",
     "d": 1,
-    "photo": null
+    "photo": "images/derrick-henry.png"
   },
   {
     "name": "Christian McCaffrey",
@@ -117,15 +117,15 @@
     "team": "San Francisco 49ers",
     "college": "Stanford",
     "d": 1,
-    "photo": null
+    "photo": "images/christian-mccaffrey.png"
   },
   {
     "name": "Myles Garrett",
     "pos": "DE",
-    "team": "Cleveland Browns",
+    "team": "Los Angeles Rams",
     "college": "Texas A&M",
     "d": 2,
-    "photo": null
+    "photo": "images/myles-garrett.png"
   },
   {
     "name": "T.J. Watt",
@@ -133,7 +133,7 @@
     "team": "Pittsburgh Steelers",
     "college": "Wisconsin",
     "d": 2,
-    "photo": null
+    "photo": "images/t-j-watt.png"
   },
   {
     "name": "Micah Parsons",
@@ -141,7 +141,7 @@
     "team": "Green Bay Packers",
     "college": "Penn State",
     "d": 2,
-    "photo": null
+    "photo": "images/micah-parsons.png"
   },
   {
     "name": "Maxx Crosby",
@@ -149,7 +149,7 @@
     "team": "Las Vegas Raiders",
     "college": "Eastern Michigan",
     "d": 3,
-    "photo": null
+    "photo": "images/maxx-crosby.png"
   },
   {
     "name": "Cooper Kupp",
@@ -157,7 +157,7 @@
     "team": "Seattle Seahawks",
     "college": "Eastern Washington",
     "d": 3,
-    "photo": null
+    "photo": "images/cooper-kupp.png"
   },
   {
     "name": "Puka Nacua",
@@ -165,7 +165,7 @@
     "team": "Los Angeles Rams",
     "college": "BYU",
     "d": 2,
-    "photo": null
+    "photo": "images/puka-nacua.png"
   },
   {
     "name": "Brock Purdy",
@@ -173,7 +173,7 @@
     "team": "San Francisco 49ers",
     "college": "Iowa State",
     "d": 2,
-    "photo": null
+    "photo": "images/brock-purdy.png"
   },
   {
     "name": "C.J. Stroud",
@@ -181,7 +181,7 @@
     "team": "Houston Texans",
     "college": "Ohio State",
     "d": 1,
-    "photo": null
+    "photo": "images/c-j-stroud.png"
   },
   {
     "name": "Jayden Daniels",
@@ -189,7 +189,7 @@
     "team": "Washington Commanders",
     "college": "LSU",
     "d": 1,
-    "photo": null
+    "photo": "images/jayden-daniels.png"
   },
   {
     "name": "Caleb Williams",
@@ -197,15 +197,15 @@
     "team": "Chicago Bears",
     "college": "USC",
     "d": 1,
-    "photo": null
+    "photo": "images/caleb-williams.png"
   },
   {
     "name": "Sauce Gardner",
     "pos": "CB",
-    "team": "New York Jets",
+    "team": "Indianapolis Colts",
     "college": "Cincinnati",
     "d": 2,
-    "photo": null
+    "photo": "images/sauce-gardner.png"
   },
   {
     "name": "Patrick Surtain II",
@@ -221,7 +221,7 @@
     "team": "San Francisco 49ers",
     "college": "BYU",
     "d": 3,
-    "photo": null
+    "photo": "images/fred-warner.png"
   },
   {
     "name": "Nick Bosa",
@@ -229,7 +229,7 @@
     "team": "San Francisco 49ers",
     "college": "Ohio State",
     "d": 2,
-    "photo": null
+    "photo": "images/nick-bosa.png"
   },
   {
     "name": "Brock Bowers",
@@ -237,7 +237,7 @@
     "team": "Las Vegas Raiders",
     "college": "Georgia",
     "d": 2,
-    "photo": null
+    "photo": "images/brock-bowers.png"
   },
   {
     "name": "Amon-Ra St. Brown",
@@ -245,7 +245,7 @@
     "team": "Detroit Lions",
     "college": "USC",
     "d": 2,
-    "photo": null
+    "photo": "images/amon-ra-st-brown.png"
   },
   {
     "name": "Jahmyr Gibbs",
@@ -253,7 +253,7 @@
     "team": "Detroit Lions",
     "college": "Alabama",
     "d": 2,
-    "photo": null
+    "photo": "images/jahmyr-gibbs.png"
   },
   {
     "name": "Bijan Robinson",
@@ -261,7 +261,7 @@
     "team": "Atlanta Falcons",
     "college": "Texas",
     "d": 1,
-    "photo": null
+    "photo": "images/bijan-robinson.png"
   },
   {
     "name": "Trevor Lawrence",
@@ -269,7 +269,7 @@
     "team": "Jacksonville Jaguars",
     "college": "Clemson",
     "d": 1,
-    "photo": null
+    "photo": "images/trevor-lawrence.png"
   },
   {
     "name": "Kyle Hamilton",
@@ -277,7 +277,7 @@
     "team": "Baltimore Ravens",
     "college": "Notre Dame",
     "d": 2,
-    "photo": null
+    "photo": "images/kyle-hamilton.png"
   },
   {
     "name": "Garrett Wilson",
@@ -285,7 +285,7 @@
     "team": "New York Jets",
     "college": "Ohio State",
     "d": 2,
-    "photo": null
+    "photo": "images/garrett-wilson.png"
   },
   {
     "name": "Jordan Love",
@@ -293,7 +293,7 @@
     "team": "Green Bay Packers",
     "college": "Utah State",
     "d": 3,
-    "photo": null
+    "photo": "images/jordan-love.png"
   },
   {
     "name": "Jonathan Taylor",
@@ -301,7 +301,7 @@
     "team": "Indianapolis Colts",
     "college": "Wisconsin",
     "d": 2,
-    "photo": null
+    "photo": "images/jonathan-taylor.png"
   },
   {
     "name": "Aidan Hutchinson",
@@ -309,7 +309,7 @@
     "team": "Detroit Lions",
     "college": "Michigan",
     "d": 2,
-    "photo": null
+    "photo": "images/aidan-hutchinson.png"
   },
   {
     "name": "Penei Sewell",
@@ -317,22 +317,22 @@
     "team": "Detroit Lions",
     "college": "Oregon",
     "d": 3,
-    "photo": null
+    "photo": "images/penei-sewell.png"
   },
   {
     "name": "Quinnen Williams",
     "pos": "DT",
-    "team": "New York Jets",
+    "team": "Dallas Cowboys",
     "college": "Alabama",
     "d": 3,
-    "photo": null
+    "photo": "images/quinnen-williams.png"
   },
   {
     "name": "Trey Hendrickson",
     "pos": "DE",
-    "team": "Cincinnati Bengals",
+    "team": "Baltimore Ravens",
     "college": "Florida Atlantic",
     "d": 3,
-    "photo": null
+    "photo": "images/trey-hendrickson.png"
   }
 ]
