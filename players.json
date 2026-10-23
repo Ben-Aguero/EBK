@@ -177,14 +177,6 @@
  },
  {
   "name": "Justin Jefferson",
-  "pos": "LB",
-  "team": "Cleveland Browns",
-  "college": "Alabama",
-  "d": 1,
-  "photo": "images/justin-jefferson.png"
- },
- {
-  "name": "Justin Jefferson",
   "pos": "WR",
   "team": "Minnesota Vikings",
   "college": "LSU",
@@ -446,22 +438,6 @@
   "college": "LSU",
   "d": 2,
   "photo": "images/devin-white.png"
- },
- {
-  "name": "DeVonta Smith",
-  "pos": "CB",
-  "team": "Carolina Panthers",
-  "college": "Notre Dame",
-  "d": 2,
-  "photo": "images/devonta-smith.png"
- },
- {
-  "name": "DeVonta Smith",
-  "pos": "WR",
-  "team": "Philadelphia Eagles",
-  "college": "Alabama",
-  "d": 2,
-  "photo": "images/devonta-smith.png"
  },
  {
   "name": "DK Metcalf",
@@ -2390,6 +2366,14 @@
   "college": "Florida Atlantic",
   "d": 3,
   "photo": "images/devin-singletary.png"
+ },
+ {
+  "name": "DeVonta Smith",
+  "pos": "WR",
+  "team": "Philadelphia Eagles",
+  "college": "Alabama",
+  "d": 3,
+  "photo": "images/devonta-smith.png"
  },
  {
   "name": "Devontez Walker",
@@ -5094,6 +5078,14 @@
   "college": "Texas A&M",
   "d": 3,
   "photo": "images/nate-boerkircher.png"
+ },
+ {
+  "name": "Nathan Carter",
+  "pos": "RB",
+  "team": "Kansas City Chiefs",
+  "college": "Michigan State",
+  "d": 3,
+  "photo": "images/nathan-carter.png"
  },
  {
   "name": "Nicholas Singleton",
@@ -8888,6 +8880,14 @@
   "photo": "images/devon-witherspoon.png"
  },
  {
+  "name": "DeVonta Smith",
+  "pos": "CB",
+  "team": "Carolina Panthers",
+  "college": "Notre Dame",
+  "d": 4,
+  "photo": "images/devonta-smith.png"
+ },
+ {
   "name": "Dillon Thieneman",
   "pos": "S",
   "team": "Chicago Bears",
@@ -10598,6 +10598,14 @@
   "college": "Alabama",
   "d": 4,
   "photo": "images/jihaad-campbell.png"
+ },
+ {
+  "name": "Jihad Ward",
+  "pos": "LB",
+  "team": "Minnesota Vikings",
+  "college": "Illinois",
+  "d": 4,
+  "photo": "images/jihad-ward.png"
  },
  {
   "name": "Jimmy Ciarlo",
@@ -12662,14 +12670,6 @@
   "college": "Penn State",
   "d": 4,
   "photo": "images/odafe-oweh.png"
- },
- {
-  "name": "Ogbo Okoronkwo",
-  "pos": "LB",
-  "team": "San Francisco 49ers",
-  "college": "Oklahoma",
-  "d": 4,
-  "photo": "images/ogbo-okoronkwo.png"
  },
  {
   "name": "Oluwafemi Oladejo",
@@ -19814,14 +19814,6 @@
   "college": "Texas A&M",
   "d": 5,
   "photo": "images/trey-zuhn-iii.png"
- },
- {
-  "name": "Tristan Leigh",
-  "pos": "OT",
-  "team": "Minnesota Vikings",
-  "college": "Clemson",
-  "d": 5,
-  "photo": "images/tristan-leigh.png"
  },
  {
   "name": "Troy Fautanu",
