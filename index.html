@@ -50,6 +50,7 @@ ol.lb li:last-child{border-bottom:0}
 .sc{font-weight:900;font-size:1.1rem}
 .lbh{font-size:.75rem;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
 .mute{color:var(--mute);justify-content:center}
+select.guess{display:block;width:100%;font:inherit;font-size:1rem;font-weight:600;padding:14px 16px;margin-top:10px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink)}
 .hidden{display:none}
 </style>
 </head>
@@ -62,6 +63,9 @@ ol.lb li:last-child{border-bottom:0}
   <div class="card">
     <button class="btn primary" id="playCurrent">Play: Current NFL Players</button>
     <button class="btn off" disabled>All-Time Legends <span class="tag">Coming soon</span></button>
+    <div class="lbh" style="margin-top:18px">Play by team</div>
+    <select class="guess" id="teamSel"><option value="">Loading teams…</option></select>
+    <button class="btn" id="playTeam" style="text-align:center">Play this team</button>
     <ul class="rules">
       <li>Build a streak. One wrong answer ends the run.</li>
       <li>It starts with the biggest stars and gets deeper every few answers.</li>
@@ -127,28 +131,35 @@ function matches(guess,answer){
   return false;
 }
 const shuffle=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
-let run,streak,best,locked,cur;
-const STEPS=[12,10,8,6]; // easiest level lasts 10, next 10, next 10, next 10, then the last level forever
+let run,streak,best,locked,cur,POOL=[],teamMode=null;
+const STEPS=[12,10,8,6]; // easiest level lasts 12, next 10, next 8, next 6, then the last level forever
 const tierFor=s=>{let t=1,left=s;for(const n of STEPS){if(left<n)break;left-=n;t++}return Math.min(LEVELS.length,t)};
 function pick(){
   const want=tierFor(streak);
-  const tiers=[...new Set(P.map(p=>p[4]))].sort((a,b)=>a-b);
+  if(teamMode&&run.size>=POOL.length)return null;
+  const tiers=[...new Set(POOL.map(p=>p[4]))].sort((a,b)=>a-b);
   const order=tiers.sort((a,b)=>Math.abs(a-want)-Math.abs(b-want)||a-b);
   for(const t of order){
-    const pool=P.filter(p=>p[4]===t&&!run.has(p[0]));
+    const pool=POOL.filter(p=>p[4]===t&&!run.has(p[0]));
     if(pool.length)return pool[Math.floor(Math.random()*pool.length)];
   }
   run.clear();return pick();
 }
 const show=s=>["home","game","end"].forEach(x=>$(x).classList.toggle("hidden",x!==s));
-const getBest=()=>{try{return +localStorage.getItem("bk-streak-best")||0}catch(e){return 0}};
-const setBest=n=>{try{localStorage.setItem("bk-streak-best",n)}catch(e){}};
-function showBest(){const b=getBest();$("best").textContent=b?`Your best streak: ${b}`:""}
-function start(){if(!P.length)return;run=new Set();streak=0;best=getBest();show("game");load()}
+const bestKey=m=>m?"bk-best-"+m:"bk-streak-best";
+const getBest=(m=teamMode)=>{try{return +localStorage.getItem(bestKey(m))||0}catch(e){return 0}};
+const setBest=n=>{try{localStorage.setItem(bestKey(teamMode),n)}catch(e){}};
+function showBest(){const b=getBest(null);$("best").textContent=b?`Your best streak: ${b}`:""}
+function start(team){
+  teamMode=typeof team==="string"&&team?team:null;
+  POOL=teamMode?P.filter(p=>p[2]===teamMode):P;
+  if(!POOL.length)return;
+  run=new Set();streak=0;best=getBest();show("game");load();
+}
 function load(){
-  locked=false;cur=pick();run.add(cur[0]);
+  locked=false;cur=pick();if(!cur){finish();return}run.add(cur[0]);
   $("streak").textContent=streak;$("bestNow").textContent=Math.max(best,streak);
-  $("lvl").textContent=LEVELS[tierFor(streak)-1];
+  $("lvl").textContent=teamMode?teamMode:LEVELS[tierFor(streak)-1];
   const w=cur[0].split(" ").filter(x=>!/^(jr\.?|sr\.?|ii|iii|iv)$/i.test(x));
   const av=$("avatar");av.textContent=(w[0][0]+w[w.length-1][0]).toUpperCase();
   if(cur[5]){const im=new Image();im.alt=cur[0];im.onload=()=>{av.textContent="";av.appendChild(im)};im.src=cur[5]}
@@ -180,6 +191,7 @@ function finish(){
   $("endTitle").textContent=nb&&streak>0?"New best streak!":"Final streak";
   const lv=LEVELS[tierFor(streak)-1];
   $("endMsg").textContent=streak===0?"Rough start. Run it back.":`You reached the “${lv}” level. Best: ${Math.max(streak,getBest())}.`;
+  if(teamMode)$("endMsg").textContent=streak>=POOL.length?"Perfect! You know the whole "+teamMode+" roster.":`${teamMode} run. Best: ${Math.max(streak,getBest())}. Team runs don’t count toward the global leaderboard.`;
   showBest();show("end");afterRun();
 }
 const sbOn=()=>!!(SB_URL&&SB_KEY);
@@ -211,7 +223,7 @@ function mountBoard(box){
 }
 function afterRun(){
   const pb=$("postBox");$("postMsg").textContent="";
-  if(sbOn()&&streak>0){
+  if(sbOn()&&streak>0&&!teamMode){
     pb.classList.remove("hidden");$("post").disabled=false;
     try{$("nick").value=localStorage.getItem("bk-name")||""}catch(e){}
     $("lbEnd").innerHTML="";$("lbEnd").className="";
@@ -228,12 +240,12 @@ $("post").onclick=async()=>{
     $("postBox").classList.add("hidden");mountBoard($("lbEnd"));
   }catch(e){$("post").disabled=false;$("postMsg").textContent="Couldn’t post. Try again.";$("postMsg").style.color="var(--bad)"}
 };
-$("playCurrent").onclick=start;$("again").onclick=start;$("submit").onclick=answer;
+$("playCurrent").onclick=()=>start();$("again").onclick=()=>start(teamMode);$("playTeam").onclick=()=>{const t=$("teamSel").value;if(t)start(t)};$("submit").onclick=answer;
 $("menu").onclick=()=>{showBest();show("home");mountBoard($("lbHome"))};
 $("guess").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();answer()}});
 $("next").addEventListener("keydown",e=>{if(e.key==="Enter")e.stopPropagation()});
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&locked&&e.target!==$("guess")&&e.target!==$("next")&&!$("game").classList.contains("hidden"))$("next").click()});
-fetch("players.json").then(r=>r.json()).then(d=>{P=d.map(o=>[o.name,o.pos,o.team,o.college,o.d,o.photo||null])}).catch(()=>{$("best").textContent="Could not load players.json. Run this from a web server, not by double-clicking the file."});
+fetch("players.json").then(r=>r.json()).then(d=>{P=d.map(o=>[o.name,o.pos,o.team,o.college,o.d,o.photo||null]);const teams=[...new Set(P.map(p=>p[2]))].sort();$("teamSel").innerHTML='<option value="">Choose a team…</option>'+teams.map(t=>`<option>${esc(t)}</option>`).join("")}).catch(()=>{$("best").textContent="Could not load players.json. Run this from a web server, not by double-clicking the file."});
 showBest();mountBoard($("lbHome"));
 </script>
 </body>
