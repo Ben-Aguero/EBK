@@ -212,7 +212,7 @@ function afterRun(){
   if(sbOn()&&streak>0){
     pb.classList.remove("hidden");$("post").disabled=false;
     try{$("nick").value=localStorage.getItem("bk-name")||""}catch(e){}
-    $("lbEnd").innerHTML="";
+    $("lbEnd").innerHTML="";$("lbEnd").className="";
   }else{pb.classList.add("hidden");mountBoard($("lbEnd"))}
 }
 $("post").onclick=async()=>{
