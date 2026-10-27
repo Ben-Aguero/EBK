@@ -38,6 +38,17 @@ input.guess.wrong{border-color:var(--bad);background:var(--badbg)}
 .fb{margin-top:14px;font-weight:700;text-align:center;min-height:1.4em}
 .big{font-size:4.5rem;font-weight:900;text-align:center;margin:6px 0;letter-spacing:-.04em}
 .center{text-align:center}
+.tabs{display:flex;gap:6px;margin-bottom:10px}
+.tabs button{flex:1;font:inherit;font-weight:700;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--mute);cursor:pointer}
+.tabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+ol.lb{list-style:none;margin:0;padding:0}
+ol.lb li{display:flex;align-items:center;gap:10px;padding:9px 2px;border-bottom:1px solid var(--line);text-align:left}
+ol.lb li:last-child{border-bottom:0}
+.rk{width:22px;font-weight:800;color:var(--mute)}
+.nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sc{font-weight:900;font-size:1.1rem}
+.lbh{font-size:.75rem;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+.mute{color:var(--mute);justify-content:center}
 .hidden{display:none}
 </style>
 </head>
@@ -57,6 +68,7 @@ input.guess.wrong{border-color:var(--bad);background:var(--badbg)}
     </ul>
     <p class="rules" id="best"></p>
   </div>
+<div id="lbHome" style="margin-top:14px"></div>
 </section>
 
 <section id="game" class="hidden">
@@ -83,6 +95,12 @@ input.guess.wrong{border-color:var(--bad);background:var(--badbg)}
     <div class="stat" id="endTitle">Final streak</div>
     <div class="big" id="score"></div>
     <p id="endMsg" class="sub"></p>
+    <div id="postBox" class="hidden">
+      <input class="guess" id="nick" maxlength="20" placeholder="Your name for the leaderboard" autocomplete="off">
+      <button class="btn primary" id="post">Post my streak</button>
+      <div class="fb" id="postMsg"></div>
+    </div>
+    <div id="lbEnd" style="margin:14px 0"></div>
     <button class="btn primary" id="again">Run it back</button>
     <button class="btn" id="menu" style="text-align:center">Home</button>
   </div>
@@ -90,6 +108,8 @@ input.guess.wrong{border-color:var(--bad);background:var(--badbg)}
 
 </div>
 <script>
+// --- Leaderboard (Supabase). Paste your project URL and anon key to turn it on. See supabase-setup.sql. ---
+const SB_URL="https://oscdwzwxyzpkehmydesc.supabase.co",SB_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9zY2R3end4eXpwa2VobXlkZXNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMwNjE0ODgsImV4cCI6MjEwODYzNzQ4OH0.ShLvnpo2tHQ1q73yXYDLf8qlOGaCRaO8PapyRAykLU0";
 let P=[];
 const LEVELS=["Casual fan","Fan","Die-hard","Draft nerd","Scout"]; // tier 1..5
 const PER_TIER=4; // correct answers before the next tier
@@ -158,15 +178,61 @@ function finish(){
   $("endTitle").textContent=nb&&streak>0?"New best streak!":"Final streak";
   const lv=LEVELS[tierFor(streak)-1];
   $("endMsg").textContent=streak===0?"Rough start. Run it back.":`You reached the “${lv}” level. Best: ${Math.max(streak,getBest())}.`;
-  showBest();show("end");
+  showBest();show("end");afterRun();
 }
+const sbOn=()=>!!(SB_URL&&SB_KEY);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const sbH=()=>({apikey:SB_KEY,Authorization:"Bearer "+SB_KEY,"Content-Type":"application/json"});
+// Start of "today" in Utah (America/Denver), as an ISO timestamp. The daily board resets at midnight Utah time.
+function utahMidnight(){
+  const now=new Date();
+  const parts=new Intl.DateTimeFormat("en-US",{timeZone:"America/Denver",hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"}).formatToParts(now);
+  const g=t=>+parts.find(p=>p.type===t).value;
+  return new Date(now.getTime()-(((g("hour")*60+g("minute"))*60+g("second"))*1000+now.getMilliseconds())).toISOString();
+}
+async function fetchBoard(kind){
+  let q="scores?select=name,streak&order=streak.desc,created_at.asc&limit=10";
+  if(kind==="today")q+="&created_at=gte."+utahMidnight();
+  const r=await fetch(SB_URL+"/rest/v1/"+q,{headers:sbH()});if(!r.ok)throw new Error(r.status);return r.json();
+}
+function mountBoard(box){
+  box.className=sbOn()?"card":"";if(!sbOn()){box.innerHTML="";return}
+  let kind="today";
+  const draw=async()=>{
+    box.innerHTML=`<div class="lbh">Global leaderboard</div><div class="tabs"><button data-k="today" class="${kind==="today"?"on":""}">Today</button><button data-k="all" class="${kind==="all"?"on":""}">All-time</button></div><ol class="lb"><li class="mute">Loading…</li></ol>`;
+    box.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{kind=b.dataset.k;draw()});
+    const ol=box.querySelector("ol");
+    try{const rows=await fetchBoard(kind);ol.innerHTML=rows.length?rows.map((r,i)=>`<li><span class="rk">${i+1}</span><span class="nm">${esc(r.name)}</span><span class="sc">${r.streak}</span></li>`).join(""):'<li class="mute">No scores yet. Be the first.</li>'}
+    catch(e){ol.innerHTML='<li class="mute">Could not load the leaderboard.</li>'}
+  };
+  draw();
+}
+function afterRun(){
+  const pb=$("postBox");$("postMsg").textContent="";
+  if(sbOn()&&streak>0){
+    pb.classList.remove("hidden");$("post").disabled=false;
+    try{$("nick").value=localStorage.getItem("bk-name")||""}catch(e){}
+    $("lbEnd").innerHTML="";
+  }else{pb.classList.add("hidden");mountBoard($("lbEnd"))}
+}
+$("post").onclick=async()=>{
+  const name=$("nick").value.trim();
+  if(name.length<2){$("postMsg").textContent="Name must be at least 2 characters.";$("postMsg").style.color="var(--bad)";return}
+  $("post").disabled=true;
+  try{
+    try{localStorage.setItem("bk-name",name)}catch(e){}
+    const r=await fetch(SB_URL+"/rest/v1/scores",{method:"POST",headers:{...sbH(),Prefer:"return=minimal"},body:JSON.stringify({name,streak})});
+    if(!r.ok)throw new Error(r.status);
+    $("postBox").classList.add("hidden");mountBoard($("lbEnd"));
+  }catch(e){$("post").disabled=false;$("postMsg").textContent="Couldn’t post. Try again.";$("postMsg").style.color="var(--bad)"}
+};
 $("playCurrent").onclick=start;$("again").onclick=start;$("submit").onclick=answer;
-$("menu").onclick=()=>{showBest();show("home")};
+$("menu").onclick=()=>{showBest();show("home");mountBoard($("lbHome"))};
 $("guess").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();answer()}});
 $("next").addEventListener("keydown",e=>{if(e.key==="Enter")e.stopPropagation()});
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&locked&&e.target!==$("guess")&&e.target!==$("next")&&!$("game").classList.contains("hidden"))$("next").click()});
 fetch("players.json").then(r=>r.json()).then(d=>{P=d.map(o=>[o.name,o.pos,o.team,o.college,o.d,o.photo||null])}).catch(()=>{$("best").textContent="Could not load players.json. Run this from a web server, not by double-clicking the file."});
-showBest();
+showBest();mountBoard($("lbHome"));
 </script>
 </body>
 </html>
