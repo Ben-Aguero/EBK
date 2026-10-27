@@ -128,7 +128,8 @@ function matches(guess,answer){
 }
 const shuffle=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
 let run,streak,best,locked,cur;
-const tierFor=s=>Math.min(LEVELS.length,1+Math.floor(s/PER_TIER));
+const STEPS=[12,10,8,6]; // easiest level lasts 10, next 10, next 10, next 10, then the last level forever
+const tierFor=s=>{let t=1,left=s;for(const n of STEPS){if(left<n)break;left-=n;t++}return Math.min(LEVELS.length,t)};
 function pick(){
   const want=tierFor(streak);
   const tiers=[...new Set(P.map(p=>p[4]))].sort((a,b)=>a-b);
