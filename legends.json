@@ -5,7 +5,8 @@
   "team": "New England Patriots",
   "college": "Michigan",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/tom-brady.jpg",
+  "credit": "Barcex / CC BY-SA 4.0 / Wikimedia Commons"
  },
  {
   "name": "Peyton Manning",
@@ -13,7 +14,8 @@
   "team": "Indianapolis Colts",
   "college": "Tennessee",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/peyton-manning.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Eli Manning",
@@ -21,7 +23,8 @@
   "team": "New York Giants",
   "college": "Ole Miss",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/eli-manning.jpg",
+  "credit": "Alexander Jonesi / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Drew Brees",
@@ -29,7 +32,8 @@
   "team": "New Orleans Saints",
   "college": "Purdue",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/drew-brees.jpg",
+  "credit": "Senate Democrats / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Brett Favre",
@@ -37,7 +41,8 @@
   "team": "Green Bay Packers",
   "college": "Southern Mississippi",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/brett-favre.jpg",
+  "credit": "Arnie Papp / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Joe Montana",
@@ -45,7 +50,8 @@
   "team": "San Francisco 49ers",
   "college": "Notre Dame",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/joe-montana.jpg",
+  "credit": "photo taken by flcikr user Phil Hull / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "John Elway",
@@ -53,7 +59,8 @@
   "team": "Denver Broncos",
   "college": "Stanford",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/john-elway.jpg",
+  "credit": "BrokenSphere / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Dan Marino",
@@ -61,7 +68,8 @@
   "team": "Miami Dolphins",
   "college": "Pittsburgh",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/dan-marino.jpg",
+  "credit": "CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Michael Vick",
@@ -69,7 +77,8 @@
   "team": "Atlanta Falcons",
   "college": "Virginia Tech",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/michael-vick.jpg",
+  "credit": "Mass Communication Specialist 2nd Class Justin Wolpert of SU / Public domain / Wikimedia Commons"
  },
  {
   "name": "Cam Newton",
@@ -77,7 +86,8 @@
   "team": "Carolina Panthers",
   "college": "Auburn",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/cam-newton.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Tim Tebow",
@@ -85,7 +95,8 @@
   "team": "Denver Broncos",
   "college": "Florida",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/tim-tebow.jpg",
+  "credit": "Clemed / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Barry Sanders",
@@ -93,7 +104,8 @@
   "team": "Detroit Lions",
   "college": "Oklahoma State",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/barry-sanders.jpg",
+  "credit": "Greg2600 / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Walter Payton",
@@ -101,7 +113,8 @@
   "team": "Chicago Bears",
   "college": "Jackson State",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/walter-payton.jpg",
+  "credit": "Jeno's / Public domain / Wikimedia Commons"
  },
  {
   "name": "Emmitt Smith",
@@ -117,7 +130,8 @@
   "team": "Minnesota Vikings",
   "college": "Oklahoma",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/adrian-peterson.jpg",
+  "credit": "2C2K Photography / CC BY 4.0 / Wikimedia Commons"
  },
  {
   "name": "Marshawn Lynch",
@@ -125,7 +139,8 @@
   "team": "Seattle Seahawks",
   "college": "California",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/marshawn-lynch.jpg",
+  "credit": "Mass Communication Specialist Seaman Edward Martisius / Public domain / Wikimedia Commons"
  },
  {
   "name": "Bo Jackson",
@@ -133,7 +148,8 @@
   "team": "Los Angeles Raiders",
   "college": "Auburn",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/bo-jackson.jpg",
+  "credit": "U.S. Army Materiel Command (AMC Photo by Chris Putman) / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Jerry Rice",
@@ -141,7 +157,8 @@
   "team": "San Francisco 49ers",
   "college": "Mississippi Valley State",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/jerry-rice.jpg",
+  "credit": "J R / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Randy Moss",
@@ -149,7 +166,8 @@
   "team": "Minnesota Vikings",
   "college": "Marshall",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/randy-moss.jpg",
+  "credit": "Keith Allison / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Terrell Owens",
@@ -157,7 +175,8 @@
   "team": "San Francisco 49ers",
   "college": "Chattanooga",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/terrell-owens.jpg",
+  "credit": "Collision Conf from New Orleans, Louisiana, USA / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Larry Fitzgerald",
@@ -165,7 +184,8 @@
   "team": "Arizona Cardinals",
   "college": "Pittsburgh",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/larry-fitzgerald.jpg",
+  "credit": "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Calvin Johnson",
@@ -173,7 +193,8 @@
   "team": "Detroit Lions",
   "college": "Georgia Tech",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/calvin-johnson.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Rob Gronkowski",
@@ -189,7 +210,8 @@
   "team": "New York Giants",
   "college": "North Carolina",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/lawrence-taylor.jpg",
+  "credit": "The White House / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ray Lewis",
@@ -197,7 +219,8 @@
   "team": "Baltimore Ravens",
   "college": "Miami (FL)",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/ray-lewis.jpg",
+  "credit": "Keith Allison / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Deion Sanders",
@@ -205,7 +228,8 @@
   "team": "Dallas Cowboys",
   "college": "Florida State",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/deion-sanders.jpg",
+  "credit": "Bobak Ha'Eri / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "J.J. Watt",
@@ -213,7 +237,8 @@
   "team": "Houston Texans",
   "college": "Wisconsin",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/j-j-watt.jpg",
+  "credit": "Denverjeffrey / CC BY 4.0 / Wikimedia Commons"
  },
  {
   "name": "Aaron Donald",
@@ -221,7 +246,8 @@
   "team": "Los Angeles Rams",
   "college": "Pittsburgh",
   "d": 1,
-  "photo": null
+  "photo": "images/legends/aaron-donald.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Troy Aikman",
@@ -229,7 +255,8 @@
   "team": "Dallas Cowboys",
   "college": "UCLA",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/troy-aikman.jpg",
+  "credit": "Leahdi / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Steve Young",
@@ -237,7 +264,8 @@
   "team": "San Francisco 49ers",
   "college": "BYU",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/steve-young.jpg",
+  "credit": "SAB0TEUR / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Terry Bradshaw",
@@ -245,7 +273,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Louisiana Tech",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/terry-bradshaw.jpg",
+  "credit": "The ASI Show / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Roger Staubach",
@@ -253,7 +282,8 @@
   "team": "Dallas Cowboys",
   "college": "Navy",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/roger-staubach.jpg",
+  "credit": "The White House / Public domain / Wikimedia Commons"
  },
  {
   "name": "Joe Namath",
@@ -261,7 +291,8 @@
   "team": "New York Jets",
   "college": "Alabama",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/joe-namath.jpg",
+  "credit": "New York Jets / Public domain / Wikimedia Commons"
  },
  {
   "name": "Kurt Warner",
@@ -269,7 +300,8 @@
   "team": "St. Louis Rams",
   "college": "Northern Iowa",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/kurt-warner.jpg",
+  "credit": "Staff Sgt. Cody Trimble / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ben Roethlisberger",
@@ -277,7 +309,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Miami (OH)",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/ben-roethlisberger.jpg",
+  "credit": "Erik Drost / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Philip Rivers",
@@ -285,7 +318,8 @@
   "team": "San Diego Chargers",
   "college": "NC State",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/philip-rivers.jpg",
+  "credit": "Behind Enemy Lines: Titans at Colts / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Tony Romo",
@@ -293,7 +327,8 @@
   "team": "Dallas Cowboys",
   "college": "Eastern Illinois",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/tony-romo.jpg",
+  "credit": "Keith Allison / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Andrew Luck",
@@ -301,7 +336,8 @@
   "team": "Indianapolis Colts",
   "college": "Stanford",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/andrew-luck.jpg",
+  "credit": "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Robert Griffin III",
@@ -309,7 +345,8 @@
   "team": "Washington Redskins",
   "college": "Baylor",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/robert-griffin-iii.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Matt Ryan",
@@ -317,7 +354,8 @@
   "team": "Atlanta Falcons",
   "college": "Boston College",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/matt-ryan.jpg",
+  "credit": "All-Pro Reels from District of Columbia, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Jim Brown",
@@ -325,7 +363,8 @@
   "team": "Cleveland Browns",
   "college": "Syracuse",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/jim-brown.jpg",
+  "credit": "Topps / Public domain / Wikimedia Commons"
  },
  {
   "name": "LaDainian Tomlinson",
@@ -333,7 +372,8 @@
   "team": "San Diego Chargers",
   "college": "TCU",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/ladainian-tomlinson.jpg",
+  "credit": "original: U.S. Navy MC2 Jesse Monford on behalf of Naval Sur / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Frank Gore",
@@ -341,7 +381,8 @@
   "team": "San Francisco 49ers",
   "college": "Miami (FL)",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/frank-gore.jpg",
+  "credit": "Mike Morbeck / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Ricky Williams",
@@ -349,7 +390,8 @@
   "team": "New Orleans Saints",
   "college": "Texas",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/ricky-williams.jpg",
+  "credit": "https://www.profootballhistory.com/ricky-williams/ / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jerome Bettis",
@@ -365,7 +407,8 @@
   "team": "Dallas Cowboys",
   "college": "Miami (FL)",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/michael-irvin.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Wes Welker",
@@ -373,7 +416,8 @@
   "team": "New England Patriots",
   "college": "Texas Tech",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/wes-welker.jpg",
+  "credit": "Jeffrey Beall / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Julian Edelman",
@@ -381,7 +425,8 @@
   "team": "New England Patriots",
   "college": "Kent State",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/julian-edelman.jpg",
+  "credit": "AlexanderJonesi / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Antonio Brown",
@@ -389,7 +434,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Central Michigan",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/antonio-brown.jpg",
+  "credit": "Gage Skidmore from Surprise, AZ, United States of America / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Tony Gonzalez",
@@ -397,7 +443,8 @@
   "team": "Kansas City Chiefs",
   "college": "California",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/tony-gonzalez.jpg",
+  "credit": "Erik Drost / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Reggie White",
@@ -405,7 +452,8 @@
   "team": "Philadelphia Eagles",
   "college": "Tennessee",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/reggie-white.jpg",
+  "credit": "Barbara Kinney / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ed Reed",
@@ -413,7 +461,8 @@
   "team": "Baltimore Ravens",
   "college": "Miami (FL)",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/ed-reed.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Troy Polamalu",
@@ -421,7 +470,8 @@
   "team": "Pittsburgh Steelers",
   "college": "USC",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/troy-polamalu.jpg",
+  "credit": "Sodexo USA / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Charles Woodson",
@@ -429,7 +479,8 @@
   "team": "Oakland Raiders",
   "college": "Michigan",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/charles-woodson.jpg",
+  "credit": "Jeffrey Beall / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Brian Urlacher",
@@ -437,7 +488,8 @@
   "team": "Chicago Bears",
   "college": "New Mexico",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/brian-urlacher.jpg",
+  "credit": "US Army Africa from Vicenza, Italy / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Michael Strahan",
@@ -445,7 +497,8 @@
   "team": "New York Giants",
   "college": "Texas Southern",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/michael-strahan.jpg",
+  "credit": "Airman 1st Class Andrew Britten / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ndamukong Suh",
@@ -453,7 +506,8 @@
   "team": "Detroit Lions",
   "college": "Nebraska",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/ndamukong-suh.jpg",
+  "credit": "All-Pro Reels from District of Columbia, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Richard Sherman",
@@ -461,7 +515,8 @@
   "team": "Seattle Seahawks",
   "college": "Stanford",
   "d": 2,
-  "photo": null
+  "photo": "images/legends/richard-sherman.jpg",
+  "credit": "Washington National Guard / CC BY 4.0 / Wikimedia Commons"
  },
  {
   "name": "Johnny Unitas",
@@ -469,7 +524,8 @@
   "team": "Baltimore Colts",
   "college": "Louisville",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/johnny-unitas.jpg",
+  "credit": "Public domain / Wikimedia Commons"
  },
  {
   "name": "Donovan McNabb",
@@ -477,7 +533,8 @@
   "team": "Philadelphia Eagles",
   "college": "Syracuse",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/donovan-mcnabb.jpg",
+  "credit": "Rachel Lynne Smith / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Randall Cunningham",
@@ -485,7 +542,8 @@
   "team": "Philadelphia Eagles",
   "college": "UNLV",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/randall-cunningham.jpg",
+  "credit": "Justvikings / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jim Kelly",
@@ -493,7 +551,8 @@
   "team": "Buffalo Bills",
   "college": "Miami (FL)",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/jim-kelly.jpg",
+  "credit": "Staff Sgt. Corenthia Fennell / Public domain / Wikimedia Commons"
  },
  {
   "name": "Warren Moon",
@@ -501,7 +560,8 @@
   "team": "Houston Oilers",
   "college": "Washington",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/warren-moon.jpg",
+  "credit": "Warren Moon Press Conference | Oilers Tribute Week / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Bart Starr",
@@ -509,7 +569,8 @@
   "team": "Green Bay Packers",
   "college": "Alabama",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/bart-starr.jpg",
+  "credit": "Unknown authorUnknown author / Public domain / Wikimedia Commons"
  },
  {
   "name": "Carson Palmer",
@@ -517,7 +578,8 @@
   "team": "Cincinnati Bengals",
   "college": "USC",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/carson-palmer.jpg",
+  "credit": "Jeffrey Beall / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Terrell Davis",
@@ -525,7 +587,8 @@
   "team": "Denver Broncos",
   "college": "Georgia",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/terrell-davis.jpg",
+  "credit": "Photographer's Mate 1st Class Aviation Warfare Systems Opera / Public domain / Wikimedia Commons"
  },
  {
   "name": "Marshall Faulk",
@@ -533,7 +596,8 @@
   "team": "St. Louis Rams",
   "college": "San Diego State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/marshall-faulk.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Eric Dickerson",
@@ -541,7 +605,8 @@
   "team": "Los Angeles Rams",
   "college": "SMU",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/eric-dickerson.jpg",
+  "credit": "Master Sgt. Cohen A. Young / Public domain / Wikimedia Commons"
  },
  {
   "name": "Earl Campbell",
@@ -549,7 +614,8 @@
   "team": "Houston Oilers",
   "college": "Texas",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/earl-campbell.jpg",
+  "credit": "TankedBevo of ShaggyBevo.com / CC BY 2.5 / Wikimedia Commons"
  },
  {
   "name": "Tony Dorsett",
@@ -557,7 +623,8 @@
   "team": "Dallas Cowboys",
   "college": "Pittsburgh",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/tony-dorsett.jpg",
+  "credit": "OPEN Sports / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Edgerrin James",
@@ -565,7 +632,8 @@
   "team": "Indianapolis Colts",
   "college": "Miami (FL)",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/edgerrin-james.jpg",
+  "credit": "Collier County Public School District / Public domain / Wikimedia Commons"
  },
  {
   "name": "Curtis Martin",
@@ -573,7 +641,8 @@
   "team": "New York Jets",
   "college": "Pittsburgh",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/curtis-martin.jpg",
+  "credit": "Anthony Quintano / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Shaun Alexander",
@@ -581,7 +650,8 @@
   "team": "Seattle Seahawks",
   "college": "Alabama",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/shaun-alexander.jpg",
+  "credit": "Tom McDonald, Jason Fierle. / CC BY-SA 2.5 / Wikimedia Commons"
  },
  {
   "name": "Chris Johnson",
@@ -589,7 +659,8 @@
   "team": "Tennessee Titans",
   "college": "East Carolina",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/chris-johnson.jpg",
+  "credit": "AJ Guel / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Franco Harris",
@@ -597,7 +668,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Penn State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/franco-harris.jpg",
+  "credit": "Governor Tom Wolf from Harrisburg, PA / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Andre Johnson",
@@ -605,7 +677,8 @@
   "team": "Houston Texans",
   "college": "Miami (FL)",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/andre-johnson.jpg",
+  "credit": "AJ Guel / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Marvin Harrison",
@@ -613,7 +686,8 @@
   "team": "Indianapolis Colts",
   "college": "Syracuse",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/marvin-harrison.jpg",
+  "credit": "Alexander Jonesi / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Cris Carter",
@@ -621,7 +695,8 @@
   "team": "Minnesota Vikings",
   "college": "Ohio State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/cris-carter.jpg",
+  "credit": "MN National Guard / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Tim Brown",
@@ -629,7 +704,8 @@
   "team": "Oakland Raiders",
   "college": "Notre Dame",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/tim-brown.jpg",
+  "credit": "Photographer's Mate 1st Class Aviation Warfare Systems Opera / Public domain / Wikimedia Commons"
  },
  {
   "name": "Anquan Boldin",
@@ -637,7 +713,8 @@
   "team": "Baltimore Ravens",
   "college": "Florida State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/anquan-boldin.jpg",
+  "credit": "original: Staff Sgt. Thaddeus Harrington of the Maryland Nat / Public domain / Wikimedia Commons"
  },
  {
   "name": "Reggie Wayne",
@@ -645,7 +722,8 @@
   "team": "Indianapolis Colts",
   "college": "Miami (FL)",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/reggie-wayne.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Torry Holt",
@@ -653,7 +731,8 @@
   "team": "St. Louis Rams",
   "college": "NC State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/torry-holt.jpg",
+  "credit": "GMO66. Cropped by User:Blueag9. / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Hines Ward",
@@ -661,7 +740,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Georgia",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/hines-ward.jpg",
+  "credit": "FOX SPORTS / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Antonio Gates",
@@ -669,7 +749,8 @@
   "team": "San Diego Chargers",
   "college": "Kent State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/antonio-gates.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 4.0 / Wikimedia Commons"
  },
  {
   "name": "Jason Witten",
@@ -677,7 +758,8 @@
   "team": "Dallas Cowboys",
   "college": "Tennessee",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/jason-witten.jpg",
+  "credit": "Jeffrey Beall / CC BY 4.0 / Wikimedia Commons"
  },
  {
   "name": "Shannon Sharpe",
@@ -685,7 +767,8 @@
   "team": "Denver Broncos",
   "college": "Savannah State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/shannon-sharpe.jpg",
+  "credit": "Staff Sgt. Teddy Wade / Public domain / Wikimedia Commons"
  },
  {
   "name": "Mike Ditka",
@@ -693,7 +776,8 @@
   "team": "Chicago Bears",
   "college": "Pittsburgh",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/mike-ditka.jpg",
+  "credit": "Unknown / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ronnie Lott",
@@ -701,7 +785,8 @@
   "team": "San Francisco 49ers",
   "college": "USC",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/ronnie-lott.jpg",
+  "credit": "TeachAids / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Derrick Brooks",
@@ -709,7 +794,8 @@
   "team": "Tampa Bay Buccaneers",
   "college": "Florida State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/derrick-brooks.jpg",
+  "credit": "Spiderman789 / CC BY-SA 4.0 / Wikimedia Commons"
  },
  {
   "name": "Bruce Smith",
@@ -717,7 +803,8 @@
   "team": "Buffalo Bills",
   "college": "Virginia Tech",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/bruce-smith.jpg",
+  "credit": "VaMedia / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Dick Butkus",
@@ -725,7 +812,8 @@
   "team": "Chicago Bears",
   "college": "Illinois",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/dick-butkus.jpg",
+  "credit": "Alan Light / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Mean Joe Greene",
@@ -733,7 +821,8 @@
   "team": "Pittsburgh Steelers",
   "college": "North Texas",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/mean-joe-greene.jpg",
+  "credit": "The Steelers / NFL / Public domain / Wikimedia Commons"
  },
  {
   "name": "Junior Seau",
@@ -741,7 +830,8 @@
   "team": "San Diego Chargers",
   "college": "USC",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/junior-seau.jpg",
+  "credit": "JJ Hall / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Champ Bailey",
@@ -749,7 +839,8 @@
   "team": "Denver Broncos",
   "college": "Georgia",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/champ-bailey.jpg",
+  "credit": "Jeffrey Beall / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Darrelle Revis",
@@ -757,7 +848,8 @@
   "team": "New York Jets",
   "college": "Pittsburgh",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/darrelle-revis.jpg",
+  "credit": "Jeff Kern / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Patrick Willis",
@@ -765,7 +857,8 @@
   "team": "San Francisco 49ers",
   "college": "Ole Miss",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/patrick-willis.jpg",
+  "credit": "Steven Bowles / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Luke Kuechly",
@@ -773,7 +866,8 @@
   "team": "Carolina Panthers",
   "college": "Boston College",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/luke-kuechly.jpg",
+  "credit": "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Terrell Suggs",
@@ -781,7 +875,8 @@
   "team": "Baltimore Ravens",
   "college": "Arizona State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/terrell-suggs.jpg",
+  "credit": "Keith Allison / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Julius Peppers",
@@ -789,7 +884,8 @@
   "team": "Carolina Panthers",
   "college": "North Carolina",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/julius-peppers.jpg",
+  "credit": "United States Marine Corps/Sgt. D.R. Cotton / Public domain / Wikimedia Commons"
  },
  {
   "name": "Dwight Freeney",
@@ -797,7 +893,8 @@
   "team": "Indianapolis Colts",
   "college": "Syracuse",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/dwight-freeney.jpg",
+  "credit": "Jeffrey Beall / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Jared Allen",
@@ -805,7 +902,8 @@
   "team": "Minnesota Vikings",
   "college": "Idaho State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/jared-allen.jpg",
+  "credit": "MN National Guard / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "DeMarcus Ware",
@@ -813,7 +911,8 @@
   "team": "Dallas Cowboys",
   "college": "Troy",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/demarcus-ware.jpg",
+  "credit": "Jeffrey Beall / CC BY 3.0 / Wikimedia Commons"
  },
  {
   "name": "Warren Sapp",
@@ -821,7 +920,8 @@
   "team": "Tampa Bay Buccaneers",
   "college": "Miami (FL)",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/warren-sapp.jpg",
+  "credit": "Gage Skidmore / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Joe Thomas",
@@ -837,7 +937,8 @@
   "team": "Indianapolis Colts",
   "college": "South Dakota State",
   "d": 3,
-  "photo": null
+  "photo": "images/legends/adam-vinatieri.jpg",
+  "credit": "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Fran Tarkenton",
@@ -845,7 +946,8 @@
   "team": "Minnesota Vikings",
   "college": "Georgia",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/fran-tarkenton.jpg",
+  "credit": "Steve Burns / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Dan Fouts",
@@ -853,7 +955,8 @@
   "team": "San Diego Chargers",
   "college": "Oregon",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/dan-fouts.jpg",
+  "credit": "Rex Lilly / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Jim Plunkett",
@@ -861,7 +964,8 @@
   "team": "Oakland Raiders",
   "college": "Stanford",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jim-plunkett.jpg",
+  "credit": "TeachAids / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Gale Sayers",
@@ -869,7 +973,8 @@
   "team": "Chicago Bears",
   "college": "Kansas",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/gale-sayers.jpg",
+  "credit": "Unknown / Public domain / Wikimedia Commons"
  },
  {
   "name": "Thurman Thomas",
@@ -877,7 +982,8 @@
   "team": "Buffalo Bills",
   "college": "Oklahoma State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/thurman-thomas.jpg",
+  "credit": "Jeff Kern / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Jamal Lewis",
@@ -885,7 +991,8 @@
   "team": "Baltimore Ravens",
   "college": "Tennessee",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jamal-lewis.jpg",
+  "credit": "Jamal_Lewis,_Steve_McNair,_and_Todd_Heap.jpg: Keith Allison  / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Priest Holmes",
@@ -893,7 +1000,8 @@
   "team": "Kansas City Chiefs",
   "college": "Texas",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/priest-holmes.jpg",
+  "credit": "Priest_Holmes_speaks_with_soldiers.jpg: Steve Elliott deriva / Public domain / Wikimedia Commons"
  },
  {
   "name": "Arian Foster",
@@ -901,7 +1009,8 @@
   "team": "Houston Texans",
   "college": "Tennessee",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/arian-foster.jpg",
+  "credit": "AJ Guel / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Eddie George",
@@ -909,7 +1018,8 @@
   "team": "Tennessee Titans",
   "college": "Ohio State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/eddie-george.jpg",
+  "credit": "Tennessee Titans / CC BY-SA 4.0 / Wikimedia Commons"
  },
  {
   "name": "Tiki Barber",
@@ -917,7 +1027,8 @@
   "team": "New York Giants",
   "college": "Virginia",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/tiki-barber.jpg",
+  "credit": "David Shankbone / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Paul Hornung",
@@ -925,7 +1036,8 @@
   "team": "Green Bay Packers",
   "college": "Notre Dame",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/paul-hornung.jpg",
+  "credit": "Topps / Public domain / Wikimedia Commons"
  },
  {
   "name": "Steve Largent",
@@ -933,7 +1045,8 @@
   "team": "Seattle Seahawks",
   "college": "Tulsa",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/steve-largent.jpg",
+  "credit": "United States House of Representatives / Public domain / Wikimedia Commons"
  },
  {
   "name": "Lynn Swann",
@@ -941,7 +1054,8 @@
   "team": "Pittsburgh Steelers",
   "college": "USC",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/lynn-swann.jpg",
+  "credit": "Public domain / Wikimedia Commons"
  },
  {
   "name": "Isaac Bruce",
@@ -949,7 +1063,8 @@
   "team": "St. Louis Rams",
   "college": "Memphis",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/isaac-bruce.jpg",
+  "credit": "MavsFan28 / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Ozzie Newsome",
@@ -957,7 +1072,8 @@
   "team": "Cleveland Browns",
   "college": "Alabama",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/ozzie-newsome.jpg",
+  "credit": "Maryland GovPics / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Jack Lambert",
@@ -965,7 +1081,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Kent State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jack-lambert.jpg",
+  "credit": "Crestwood High School / Public domain / Wikimedia Commons"
  },
  {
   "name": "Randy White",
@@ -973,7 +1090,8 @@
   "team": "Dallas Cowboys",
   "college": "Maryland",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/randy-white.jpg",
+  "credit": "EricEnfermero / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Charles Haley",
@@ -981,7 +1099,8 @@
   "team": "San Francisco 49ers",
   "college": "James Madison",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/charles-haley.jpg",
+  "credit": "WeDemBoyz42119 / CC0 / Wikimedia Commons"
  },
  {
   "name": "Rod Woodson",
@@ -989,7 +1108,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Purdue",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/rod-woodson.jpg",
+  "credit": "Thomson200 / CC0 / Wikimedia Commons"
  },
  {
   "name": "Deacon Jones",
@@ -997,7 +1117,8 @@
   "team": "Los Angeles Rams",
   "college": "Mississippi Valley State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/deacon-jones.jpg",
+  "credit": "ABC Television / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jack Ham",
@@ -1005,7 +1126,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Penn State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jack-ham.jpg",
+  "credit": "Unknown authorUnknown author / Public domain / Wikimedia Commons"
  },
  {
   "name": "Derrick Thomas",
@@ -1021,7 +1143,8 @@
   "team": "Chicago Bears",
   "college": "Baylor",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/mike-singletary.jpg",
+  "credit": "BrokenSphere / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Anthony Munoz",
@@ -1029,7 +1152,8 @@
   "team": "Cincinnati Bengals",
   "college": "USC",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/anthony-munoz.jpg",
+  "credit": "Cheryle Rivas / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jonathan Ogden",
@@ -1037,7 +1161,8 @@
   "team": "Baltimore Ravens",
   "college": "UCLA",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jonathan-ogden.jpg",
+  "credit": "WendyHerr / CC BY-SA 4.0 / Wikimedia Commons"
  },
  {
   "name": "Orlando Pace",
@@ -1045,7 +1170,8 @@
   "team": "St. Louis Rams",
   "college": "Ohio State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/orlando-pace.jpg",
+  "credit": "Staff Sgt. Sergio A. Gamboa / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jason Peters",
@@ -1053,7 +1179,8 @@
   "team": "Philadelphia Eagles",
   "college": "Arkansas",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/jason-peters.jpg",
+  "credit": "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
  },
  {
   "name": "Larry Allen",
@@ -1061,7 +1188,8 @@
   "team": "Dallas Cowboys",
   "college": "Sonoma State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/larry-allen.jpg",
+  "credit": "John Martinez Pavliga / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Sebastian Janikowski",
@@ -1069,7 +1197,8 @@
   "team": "Oakland Raiders",
   "college": "Florida State",
   "d": 4,
-  "photo": null
+  "photo": "images/legends/sebastian-janikowski.jpg",
+  "credit": "Jeffrey Beall / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Y.A. Tittle",
@@ -1077,7 +1206,8 @@
   "team": "New York Giants",
   "college": "LSU",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/y-a-tittle.jpg",
+  "credit": "Topps / Public domain / Wikimedia Commons"
  },
  {
   "name": "Otto Graham",
@@ -1085,7 +1215,8 @@
   "team": "Cleveland Browns",
   "college": "Northwestern",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/otto-graham.jpg",
+  "credit": "United States Coast Guard photo / Public domain / Wikimedia Commons"
  },
  {
   "name": "Sammy Baugh",
@@ -1093,7 +1224,8 @@
   "team": "Washington Redskins",
   "college": "TCU",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/sammy-baugh.jpg",
+  "credit": "Harris &amp; Ewing, photographer / Public domain / Wikimedia Commons"
  },
  {
   "name": "Lenny Moore",
@@ -1101,7 +1233,8 @@
   "team": "Baltimore Colts",
   "college": "Penn State",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/lenny-moore.jpg",
+  "credit": "Marylandstater / CC0 / Wikimedia Commons"
  },
  {
   "name": "Mel Blount",
@@ -1109,7 +1242,8 @@
   "team": "Pittsburgh Steelers",
   "college": "Southern",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/mel-blount.jpg",
+  "credit": "Cramerwiki / CC0 / Wikimedia Commons"
  },
  {
   "name": "Bob Lilly",
@@ -1117,7 +1251,8 @@
   "team": "Dallas Cowboys",
   "college": "TCU",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/bob-lilly.jpg",
+  "credit": "Unknown authorUnknown author / Public domain / Wikimedia Commons"
  },
  {
   "name": "Ray Nitschke",
@@ -1125,7 +1260,8 @@
   "team": "Green Bay Packers",
   "college": "Illinois",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/ray-nitschke.jpg",
+  "credit": "Unknown authorUnknown author / Public domain / Wikimedia Commons"
  },
  {
   "name": "Willie Lanier",
@@ -1133,7 +1269,8 @@
   "team": "Kansas City Chiefs",
   "college": "Morgan State",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/willie-lanier.jpg",
+  "credit": "Hank Young / Public domain / Wikimedia Commons"
  },
  {
   "name": "Cortez Kennedy",
@@ -1149,7 +1286,8 @@
   "team": "Oakland Raiders",
   "college": "Miami (FL)",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/jim-otto.jpg",
+  "credit": "Cohen's / Public domain / Wikimedia Commons"
  },
  {
   "name": "Bruce Matthews",
@@ -1157,7 +1295,8 @@
   "team": "Tennessee Titans",
   "college": "USC",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/bruce-matthews.jpg",
+  "credit": "Jerry Sherk (talk) / CC BY-SA 3.0 / Wikimedia Commons"
  },
  {
   "name": "Dan Dierdorf",
@@ -1165,7 +1304,8 @@
   "team": "St. Louis Cardinals",
   "college": "Michigan",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/dan-dierdorf.jpg",
+  "credit": "Unknown authorUnknown author / Public domain / Wikimedia Commons"
  },
  {
   "name": "Will Shields",
@@ -1173,7 +1313,8 @@
   "team": "Kansas City Chiefs",
   "college": "Nebraska",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/will-shields.jpg",
+  "credit": "Airman 1st Class Joel Pfiester / Public domain / Wikimedia Commons"
  },
  {
   "name": "Jan Stenerud",
@@ -1181,7 +1322,8 @@
   "team": "Kansas City Chiefs",
   "college": "Montana State",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/jan-stenerud.jpg",
+  "credit": "Larsonk at English Wikipedia / Public domain / Wikimedia Commons"
  },
  {
   "name": "Morten Andersen",
@@ -1189,7 +1331,8 @@
   "team": "Atlanta Falcons",
   "college": "Michigan State",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/morten-andersen.jpg",
+  "credit": "Samjudge. from UK / CC BY 2.0 / Wikimedia Commons"
  },
  {
   "name": "Ray Guy",
@@ -1197,6 +1340,7 @@
   "team": "Oakland Raiders",
   "college": "Southern Mississippi",
   "d": 5,
-  "photo": null
+  "photo": "images/legends/ray-guy.jpg",
+  "credit": "Richard Drew/AP / Public domain / Wikimedia Commons"
  }
 ]
